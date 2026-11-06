@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXAD 投放平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .card {
+            max-width: 620px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.4rem;
+            color: #38bdf8;
+            margin-bottom: 1rem;
+        }
+        .desc {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #cbd5e1;
+            margin-bottom: 2rem;
+        }
+        .beta-tip {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .beta-tip p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .email {
+            color: #38bdf8;
+            font-family: monospace;
+            margin-top: 0.5rem;
+            font-size: 1.05rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.9rem 2.2rem;
+            background-color: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 999px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #0369a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>NXAD 投放平台</h1>
+        <p class="desc">本平台绑定了类似百度等其他主流平台的广告投放，只需付一次钱，拥有所有平台的广告投放权。</p>
+        <div class="beta-tip">
+            <p>本产品正处于贝塔测试版，如需使用请发邮件至：</p>
+            <div class="email">noxchen-o@outlook.com</div>
+        </div>
+        <a class="btn" href="mailto:noxchen-o@outlook.com">Try</a>
+    </div>
+</body>
+</html>
